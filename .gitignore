@@ -1,5 +1,4 @@
 *.pdf
-*.tex
 *.aux
 *.log
 *.out
@@ -11,3 +10,4 @@
 *.bcf
 *.run.xml
 *.blg
+*.xdv
