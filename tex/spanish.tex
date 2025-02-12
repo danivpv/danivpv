@@ -1,0 +1,209 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.1 (30/4/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{tex/deedy-resume-openfont}
+\usepackage{multicol}
+\usepackage{comment}
+
+\begin{document}
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\namesection{Daniel Iván}{Parra Verde}{ 
+Tel. +52 5644550582 | Dirección: P.C. 25297, Saltillo, Coahuila, México\\
+\href{mailto:danivpv@gmail.com}{Mail: danivpv@outlook.com} | 
+\href{https://www.instagram.com/daniel.ivan.v/}{Instagram: daniel.ivan.v} \\ \href{https://www.linkedin.com/in/danielivanparraverde/}{LinkedIn: danielivanparraverde} | \href{https://github.com/danivpv}{GitHub: danivpv}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Educación} 
+
+\subsection{\href{http://www.fata.unam.mx/}{UNAM-CFATA}}
+\descript{Licenciatura en Tecnología}
+\location{2021 | Juriquilla, Qro.}
+\sectionsep
+
+\subsection{\href{https://www.rug.nl/research/bernoulli/}{Universidad de\\Groningen (G)}}
+\descript{Semestre de Intercambio: Beca}
+\location{2019 | Groningen, Países Bajos}
+\sectionsep
+
+\subsection{\href{https://www.posgrado.unam.mx/matematicas/es/inicio}{UNAM-IIMAS}}
+\descript{MSc. Ciencias Matemáticas}
+\location{2022 | Juriquilla, Qro.}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Cursos Relevantes}
+\subsection{Licenciatura}
+Inteligencia Artificial en Python (G)\\
+Aprendizaje Profundo en Python (G)\\
+Algoritmos y Estructuras de \\
+Datos en C (G)\\
+Bases de Datos PostgreSQL (G)\\
+Computo Científico\\
+Teoría de Grafos\\
+Serie de Ecuaciones Diferenciales\\
+Dinámica No-linear\\
+Dinámica Evolutiva\\
+Mecánica Estadística\\
+Algebra Linear
+\sectionsep
+
+\subsection{Maestría}
+Aprendizaje Máquina Teórico\\
+Teoría de la Información\\
+Inferencia Estadística\\
+Fundamentos Estadísticos de la Privacidad\\
+Análisis Numérico\\
+Análisis Real\\
+Análisis Funcional\\
+NN Biológicas y Artificiales\\
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Aptitudes}
+\subsection{Programación}
+\location{Competente en:}
+Python \textbullet{} Julia \textbullet{} Wolfram \textbullet{} Bash \\ 
+\location{Familiar}
+C \textbullet{} Matlab  \textbullet{} CUDA \textbullet{} R 
+\sectionsep
+
+\subsection{Software}
+\LaTeX\ \textbullet{} Microsoft Office \textbullet{} VSCode \textbullet{} Git
+\sectionsep
+
+\subsection{Lenguajes}
+Ingles ($+$C1) \textbullet{} Alemán ($+$B1) \textbullet{} Español
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experiencia Laboral}
+
+\runsubsection{Científico de Datos - \href{https://www.linkedin.com/company/entropia-ai/}{Entropía AI}}\\
+\location{Febrero 2023 – Ahora | Remoto}
+\vspace{\topsep}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Responsable de tareas de procesamiento de lenguaje natural (NLP) como ingeniería de prompts, sumarización y filtrado de documentos por similitud semántica con la API de \href{https://openai.com/}{OpenAI} de grandes modelos de lenguaje (LLM). Empecé la certificación de \href{https://learn.microsoft.com/en-us/certifications/azure-ai-engineer/}{Ingeniero Asociado de Inteligencia Artificial de Microsoft Azure}.
+\item Creación de una pipeline con Python de ingestión, transformación y carga de datos en los servicios de Microsoft Azure Synapse. Los datos incluían tablas y textos legislativos y regulatorios del sistema político mexicano. Empecé la certificación de \href{https://learn.microsoft.com/en-us/certifications/azure-data-engineer/}{Ingeniero de Datos de Microsoft Azure}.
+\item Colaboración en la implementación de interfaces web para varias aplicaciones en Python con Dash y Flask.
+\item Participación en reuniones con clientes para la integración ágil de retroalimentación.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Contratista Independiente \href{https://www.wolfram.com/company/}{Wolfram Research}}\\
+\location{Febrero 2021 – Febrero 2023 | Remoto}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Implementación y administración de sitio web para el evento anual de \href{https://education.wolfram.com/summer-camp/}{'Wolfram Summer Camp'} usando las tecnologías en la nube de Wolfram One para automatizar reportes y manejar recursos.
+\item Rotación al equipo de desarrollo del software de \href{https://www.wolframalpha.com/}{Wolfram Alpha} donde empecé a conocer el ciclo de desarrollo de un producto de software maduro.
+\end{tightemize}
+\sectionsep
+
+
+\section{Proyectos Académicos}
+
+\runsubsection{Tesis Maestría: Identificación de Modelo de Red Neuronal Recurrente de Orden Superior con Teoría de Filtro de Kalman}
+\descript{\\\href{https://www.linkedin.com/in/esteban-a-hernandez-vargas-04724321/}{PhD. Esteban A. Hernandez-Vargas}}
+\location{Abril 2022 – Enero 2023 | \href{https://www.systemsmedicine.de/Research/}{Systems Medicine of Infectious Diseases}}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Implementación de algoritmo de identificación tambien conocido como entrenamiento de una red neuronal recurrente con el lenguaje de Julialang y la teoría del Filtro de Kalman Extendido.
+\item Análisis del error de estimación, optimización, aproximación y generalización.
+\item Simulaciones empíricas de infecciones virales dentro de huésped de COVID-19 entre otras enfermedades.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{"Convocatoria Jóvenes Talentos 2018" CONCyTEC}
+\descript{\\\href{mailto:rchavez@comunidad.unam.mx}{PhD. Rafael Chávez Moreno}}
+\location{Febrero 2018 – Octubre 2018 | \href{https://www.ingenieria.unam.mx/uat/directorio.php}{Unidad de Alta Tecnología Juriquilla, Qro.}}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Obtención de fondo económico ($\$89,000$ MXN) para el diseño y manufactura de un robot tipo Rover usando componentes de bajo costo para su presentación a audiencias técnicas y no técnicas.
+\item Responsable del subsistema de visión y planeación de trayectoria donde aprendí sobre el diseño e importancia de requerimientos.
+\item Programación en Python de Raspberry Pi con sensor Kinect de para planeación de trayectoria y procesamiento de imágenes con OpenCV, Numpy, sci-kit learn.
+\end{tightemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{comment}
+\section{Research}
+\runsubsection{Data Driven Inference of Complex Dynamics}
+\descript{\\Dr. Jorge X. Velasco}
+\location{Oct 2019 –- | Instituto de Matemáticas UNAM unidad Juriquilla, QRO.}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Analysis and caracterization of Dengue incidence cases in Mexico database.
+\item Study of Koopman operator theory for non-linear dynamical system analysis including state of the art DMD algorithms for data-driven inference.
+\item Hankel alternative view of Koopman (HAVOK) implementation in Julia with automatic estimation of suitable parameter space. DOI:10.1038/s41467-017-00030-8
+\end{tightemize}
+\sectionsep
+
+\end{comment}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Extracurriculars
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{comment}
+    
+\section{Extracurriculares} 
+\begin{tabular}{rll}
+2018/05 & \href{https://www.matcuer.unam.mx/actividades/EscuelaVerano.php}{Instituto de Matemáticas UNAM XV Escuela de Verano en Matemáticas}\\
+2018/06 & \href{https://sites.google.com/view/dinamicapotosina2021/}{Instituto de Física UASLP Escuela de Verano en Sistemas Dinámicos}\\
+2018/10 & (Winner) \href{https://www.linkedin.com/pulse/geiq-hackathon-challenging-young-minds-michael-tresca/}{GEIQ HACKATHON} Qro. Qro.\\
+2018/10 & \href{https://dgapa.unam.mx/index.php/impulso-a-la-investigacion/papiit}{PAPIIT Beca de Titulación} \\
+2019/10 & \href{https://hackafest.sparkassenstiftung-latinoamerica.org
+}{Hackafest Sparkassenstiftung en Puebla}\\
+2019/10 & \href{https://ece2019.eventos.cimat.mx/}{Escuela de Cómputo Evolutivo CIMAT}
+\end{tabular}
+
+\end{comment}
+
+\end{minipage} 
+\end{document}  

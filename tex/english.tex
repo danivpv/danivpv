@@ -1,0 +1,233 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.1 (30/4/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{tex/deedy-resume-openfont}
+\usepackage{multicol}
+\usepackage{comment}
+\usepackage{hyperref}
+\usepackage{fontspec}
+
+\begin{document}
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\namesection{Daniel Iván}{Parra Verde}{ 
+Tel. +52 8447836082 | \href{mailto:danivpv@outlook.com}{Mail: danivpv@outlook.com} | Address: P.C. 25297, Saltillo, Coahuila, México\\
+\href{https://github.com/danivpv}{Github: danivpv}  | \href{https://danivpv.com/}{Portfolio: danivpv.com} | \href{https://www.linkedin.com/in/danivpv/}{LinkedIn: danivpv} | \href{https://huggingface.co/danivpv}{Hugging Face: danivpv} 
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.32\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{\href{http://www.fata.unam.mx/}{UNAM-CFATA}}
+\descript{
+    2021 | \href{https://www.enesjuriquilla.unam.mx/?page_id=4107}{BSc. Technology}
+    }
+\sectionsep
+\subsection{\href{https://www.rug.nl/research/bernoulli/}{Groningen University (G)}}
+\descript{2019 | \href{https://www.rug.nl/bachelors/artificial-intelligence/}{BSc. AI}}
+\location{Netherlands; Full Scholarship}
+\sectionsep
+
+\subsection{\href{https://www.iimas.unam.mx/}{UNAM-IIMAS}}
+\descript{2022 | \href{https://www.posgrado.unam.mx/matematicas/es/inicio}{MSc. Mathematics}}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+
+
+\location{Programming Languages:}
+Python \textbullet{} 
+TypeScript \textbullet{} 
+SQL \textbullet{} 
+Julia \textbullet{} 
+Wolfram \textbullet{} 
+Bash \\[4pt]
+
+\location{Frameworks:}
+Django \textbullet{} 
+FastAPI \textbullet{} 
+Next.js \textbullet{} 
+React \textbullet{} 
+React Native \textbullet{} 
+Prefect \textbullet{} 
+Airflow \\[4pt]
+
+
+\location{Libraries:}
+PyTorch \textbullet{} 
+Scikit Learn \textbullet{} 
+Pandas \textbullet{} 
+SQLAlchemy \textbullet{} 
+Numpy \textbullet{} 
+Langchain \textbullet{} 
+LlamaIndex \textbullet{} 
+Docling \textbullet{} 
+Pytest \textbullet{} 
+OpenCV\\[4pt]
+
+\location{Cloud Services:}
+Hugging Face \textbullet{} 
+CometML \textbullet{} 
+ZenML \textbullet{} 
+AWS Lambda \textbullet{} 
+AWS API Gateway \textbullet{} 
+AWS SageMaker \textbullet{} 
+AWS S3 \textbullet{} 
+Vercel \textbullet{} 
+Railway \textbullet{} 
+Sendgrid \\[4pt]
+
+\location{Databases:}
+PostgreSQL \textbullet{} 
+Redis \textbullet{} 
+MongoDB \textbullet{} 
+SQLite \textbullet{} 
+Qdrant \\[4pt]
+
+\location{Software Tools:}
+VSCode \textbullet{} 
+Docker \textbullet{} 
+Cursor \textbullet{} 
+Git \textbullet{} 
+\LaTeX{} \textbullet{} 
+Microsoft Office \textbullet{} 
+Slack \textbullet{} 
+Notion \\[6pt]
+
+\location{Languages}
+English ($+$C1) \textbullet{} German ($+$B1) \textbullet{} Spanish
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+\location{Bachelor}
+Artificial Intelligence in \custombold{Python} (G)\\
+Deep Learning in \custombold{Python}(G)\\
+Algorithms and Data Structures in \custombold{C} (G)\\
+Relational Databases in \custombold{SQL} (G)
+Linear Algebra\\
+Differential Equations Series\\
+
+\sectionsep
+
+\location{Master}
+Theoretic Machine Learning\\
+Information Theory\\
+Statistical Inference\\
+Statistical Foundations of Privacy\\
+Numerical Analysis \custombold{Python, Julia}\\
+Real and Functional Analysis\\
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Work Experience}
+\runsubsection{Data Scientist}\\
+\location{\href{https://kuona.ai/es/}{Kuona} | December 2023 – May 2024 | Remote}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+    \item Trained, hyper parameter tuned and deployed RNNs to optimize the sale units of various manufacturers and retailers with \custombold{Python} on \custombold{AWS}. 
+    \item Modeled competitors' pricing data to improve sales forecast with \custombold{Python}, \custombold{Pandas} and \custombold{SQL}. 
+    \item Implemented interpretable AI technique LIME to compute point-wise sensitivity of parameters i.e. elasticity of demand and cross-elasticity of demand respectively. Used \custombold{Pytorch} and \custombold{Scikit-Learn}.
+    \item Collaborated with operations team in sales scenario simulations for clients' dynamic pricing strategies and revenue management.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Data Scientist Jr.}\\
+\location{\href{https://www.linkedin.com/company/entropia-ai/}{Entropía AI} | February 2023 – November 2023 | Remote}
+\begin{tightemize}
+    \item Managed \custombold{NLP} tasks like QA and summarizing using RAG and prompt engineering on a custom set of documents using \custombold{Python}, \custombold{Azure} Services and open source frameworks like \href{https://docs.llamaindex.ai/en/stable/}{\custombold{LlamaIndex}}, \href{https://www.langchain.com/}{\custombold{LangChain}}.
+    \item Created \custombold{ELT} pipeline with \custombold{Python} and \custombold{Airflow} of heterogeneous data sources into \custombold{MongoDB}. Data included tables and texts of official legislative and regulatory information from the Mexican Political System.
+    \item Contributed to the \custombold{agile} development of \href{http://www.icaro.ai/home/}{Icaro AI} web app hosted in \custombold{Heroku}.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Developer Internship}\\
+\location{\href{https://www.wolfram.com/company/}{Wolfram Research} | February 2021 – February 2022 | Remote}
+\begin{tightemize}
+    \item Built the \href{https://education.wolfram.com/summer-camp/}{'Wolfram Summer Camp'} app using \href{https://www.wolfram.com/wolfram-one/}{\custombold{Wolfram One's}} cloud.
+    \item Rotated into \href{https://www.wolframalpha.com/}{Wolfram Alpha} software development team. 
+\end{tightemize}
+\sectionsep
+
+
+\section{Projects}
+
+\runsubsection{ArXiv Domain Expert LLM}\\
+\location{\href{https://github.com/danivpv/LLM-ArXiv-Domain-Expert}{GitHub Repository}}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+    \item Developed end to end ML pipeline for a specialized LLM trained on ArXiv papers.
+    \item Created a custom instruction and DPO datasets on Hugging Face created with IBM's Docling OCR library, trained the LLM using and deployed it on \custombold{AWS SageMaker}.
+    \item Utilizes \custombold{MongoDB}, \custombold{Qdrant}, \custombold{ZenML}, \custombold{CometML},  and \custombold{AWS} for infrastructure.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Master Thesis: Neural Model Identification with EKF}\\
+\location{\href{https://www.linkedin.com/in/esteban-a-hernandez-vargas-04724321/}{PhD. Esteban A. Hernandez-Vargas} | \href{https://www.systemsmedicine.de/Research/}{Systems Medicine of Infectious Diseases}}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+    \item Implementation of model identification algorithm for recurrent neural networks in \custombold{Julia} programming language using Extended Kalman Filter Theory.
+    \item Error analysis of optimization, approximation and statistical generalization. 
+    \item Empirical (synthetic data) simulations of within-host viral infections caused by the viruses of SARS-COV-2, HIV and Influenza-A.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{"Convocatoria Jóvenes Talentos 2018" CONCyTEC}\\
+\location{\href{mailto:rchavez@comunidad.unam.mx}{PhD. Rafael Chávez Moreno} | \href{https://www.ingenieria.unam.mx/uat/directorio.php}{Unit of High Technology Juriquilla, Qro.}}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+    \item Secured funding ($\$89,000$ MXN) for the design and manufacture of a Rover.
+    \item Responsible for the computer vision and path planning subsystems instrumented with a Raspberry Pi and a Kinect sensor with \custombold{Python}. 
+\end{tightemize}
+
+
+\end{minipage} 
+\end{document}  
