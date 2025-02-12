@@ -99,23 +99,28 @@ Data Scientist transitioning into Full Stack Development with a strong foundatio
 
 ## 💼 Professional Experience
 
+### **Founder & AI Engineer**
+**MXAI** | January 2024 – Present | Remote
+- Developed and deployed an AI-powered sales agent achieving 100% catalog's product lookup accuracy and +95% FAQ retrieval rate, with automated cart management and payment processing, using LangChain, FastAPI, LlamaIndex, Stripe, and AWS/Railway infrastructure
+- Built corporate website using modern tech stack (Next.js, TypeScript, Tailwind, shadcn/ui) with responsive design and optimized performance
+- Currently developing a SaaS platform for sales forecasting and revenue optimization using AWS and ML technologies
+
 ### **Data Scientist**
 **Kuona** | December 2023 – May 2024 | Remote
-- Trained and deployed RNNs to optimize sales units for manufacturers and retailers using **Python** on **AWS**.
-- Modeled competitors' pricing data to enhance sales forecasting with **Python**, **Pandas**, and **SQL**.
-- Implemented interpretable AI techniques like LIME for demand elasticity analysis using **PyTorch** and **Scikit-Learn**.
-- Collaborated with operations teams to simulate sales scenarios for dynamic pricing strategies and revenue management.
+- Trained and deployed RNNs to optimize sales units for manufacturers and retailers using PyTorch, Python on AWS, containerized with Docker
+- Modeled competitors' pricing data and implemented LIME for demand elasticity analysis using Pandas, PyTorch, Scikit-Learn, and PostgreSQL
+- Developed internal dashboard with Django and PostgreSQL for operations team to simulate dynamic pricing strategies and revenue management scenarios
 
 ### **Data Scientist Jr.**
 **Entropía AI** | February 2023 – November 2023 | Remote
-- Managed **NLP** tasks including QA and summarization using **Python**, **Azure Services**, **LlamaIndex**, and **LangChain**.
-- Developed an **ELT** pipeline with **Python** and **Airflow** integrating heterogeneous data sources into **MongoDB**.
-- Contributed to the agile development of the **Icaro AI** web application hosted on **Heroku**.
+- Managed NLP tasks using RAG and prompt engineering with LlamaIndex, Pandas, MongoDB, and LangChain
+- Created ELT pipeline with Python, bs4 and Airflow from scrapped Mexican Political System data into MongoDB
+- Contributed to the agile development of Icaro AI web app hosted in Heroku
 
 ### **Developer Intern**
 **Wolfram Research** | February 2021 – February 2022 | Remote
-- Built the 'Wolfram Summer Camp' app using **Wolfram One's** cloud services.
-- Rotated into the **Wolfram Alpha** software development team, contributing to key projects.
+- Built the 'Wolfram Summer Camp' app using Wolfram One's cloud services
+- Rotated into Wolfram Alpha software development team
 
 ---
 
@@ -123,35 +128,32 @@ Data Scientist transitioning into Full Stack Development with a strong foundatio
 
 ### **ArXiv Domain Expert LLM**
 **GitHub:** [LLM-ArXiv-Domain-Expert](https://github.com/danivpv/LLM-ArXiv-Domain-Expert)
-- Developed an end-to-end ML pipeline for a specialized LLM trained on ArXiv papers.
-- Created a custom instruction and DPO datasets on Hugging Face created with IBM's Docling OCR library, trained the LLM using and deployed it on **AWS SageMaker**.
-- Utilizes **MongoDB**, **Qdrant**, **ZenML**, **CometML**,  and **AWS** for infrastructure.
+- Developed ML pipeline and created custom instruction datasets in Hugging Face for ArXiv-specialized LLM, trained and deployed on AWS SageMaker
+- Utilizes MongoDB, Qdrant, ZenML, CometML, and AWS for infrastructure
 
 ### **AI Development Agency Website**
 **Website:** [mxai.dev](https://mxai.dev)
-- Created a corporate website for an AI development agency showcasing products and services.
-- Utilized **Next.js**, **TypeScript**, **Shadcn/ui** and **Tailwind CSS** for a modern and responsive design.
+- Created a corporate website for an AI development agency showcasing products and services
+- Utilized Next.js, TypeScript, Shadcn/ui and Tailwind CSS for a modern and responsive design
 
 ### **BetterwareBot**
 **GitHub:** [DirectSalesAI](https://github.com/danivpv/DirectSalesAI)
-- Developed an AI-powered sales agent enabling natural language product ordering and FAQ resolution via Telegram and web interfaces.
-- Integrated **LLMs**, **Vector Databases**, and **LangChain** for intelligent conversational capabilities.
-- Achieved high metrics in catalog's product lookup accuracy and FAQ retrieval accuracy rates.
-- Implemented rate limiting and caching with **Redis** to enhance performance.
+- Developed an AI-powered sales agent enabling natural language product ordering and FAQ resolution via Telegram and web interfaces
+- Integrated LLMs, Vector Databases, and LangChain for intelligent conversational capabilities
+- Achieved high metrics in catalog's product lookup accuracy and FAQ retrieval accuracy rates
+- Implemented rate limiting and caching with Redis to enhance performance
 
 ### **Master Thesis: Neural Model Identification with EKF**
-- Developed a model identification algorithm for recurrent neural networks using the **Julia** programming language and Extended Kalman Filter Theory.
-- Conducted error analysis on optimization, approximation, and statistical generalization.
-- Simulated within-host viral infections (SARS-COV-2, HIV, Influenza-A) using synthetic data, enhancing understanding of viral dynamics.
+- Implementation of model identification algorithm for recurrent neural networks in Julia programming language using Extended Kalman Filter Theory
+- Error analysis of optimization, approximation and statistical generalization
 
 ### **Rover Project - CONCyTEC "Convocatoria Jóvenes Talentos 2018"**
-- Secured $89,000 MXN in funding for the design and manufacture of a Rover.
-- Led the development of computer vision and path planning subsystems using **Python**, Raspberry Pi, and Kinect sensors.
-- Successfully integrated hardware and software components to achieve autonomous navigation and obstacle detection.
+- Secured $89,000 MXN in funding for the design and manufacture of a Rover
+- Led the development of computer vision and path planning subsystems using Python, Raspberry Pi, and Kinect sensors
+- Successfully integrated hardware and software components to achieve autonomous navigation and obstacle detection
 
 ---
 
-## 🏆 Key Achievements
 ## 🏆 Key Achievements
 - **Innovative Implementations:** Introduced physics-informed neural networks and LoRA for model fine-tuning, reducing costs by 30% and enhancing model performance.
 - **Leadership:** Secured $89,000 MXN in funding for the Rover project, managing the development of computer vision and path planning subsystems with Raspberry Pi and Kinect.
