@@ -119,7 +119,7 @@ Data Scientist transitioning into Full Stack Development with a strong foundatio
 
 ### **Developer Intern**
 **Wolfram Research** | February 2021 – February 2022 | Remote
-- Built the 'Wolfram Summer Camp' app using Wolfram One's cloud services
+- Built the 'Wolfram Summer Camp' app integrating Wolfram One's cloud services
 - Rotated into Wolfram Alpha software development team
 
 ---

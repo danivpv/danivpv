@@ -21,6 +21,9 @@ english:
 spanish:
 	$(LATEX) $(FLAGS) $(TEX_DIR)/spanish.tex
 
+cover-letter:
+	$(LATEX) $(FLAGS) $(TEX_DIR)/cover-letter.tex
+
 # Clean temporary files
 clean:
 	rm -rf $(TMP_DIR)/* $(PDF_DIR)/*
