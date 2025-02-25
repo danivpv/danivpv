@@ -14,7 +14,7 @@
 ---
 
 ## 🚀 Professional Summary
-Data Scientist transitioning into Full Stack Development with a strong foundation in mathematics and problem-solving. Experienced in building and deploying AI-assisted workflows, developing end-to-end machine learning systems, and creating innovative AI tools and applications. Adept at leveraging modern technologies to deliver scalable and efficient solutions. Seeking roles such as Machine Learning Engineer, Full Stack Data Scientist, AI Engineer, AI Tooling Developer, Agent Engineer, and Product Owner to drive AI-driven projects and lead teams towards impactful outcomes.
+Data Scientist transitioning into Full Stack Development with a strong foundation in mathematics and problem-solving. Experienced in building end-to-end machine learning systems, and creating innovative full stack AI tools and applications. Adept at leveraging modern technologies to quickly delivering scalable and efficient solutions. Seeking roles such as Machine Learning Engineer, Full Stack Data Scientist, AI Engineer, AI Tooling Developer, Agent Engineer, and Product Owner to drive AI-driven projects and lead teams towards impactful outcomes.
 
 ---
 
@@ -101,25 +101,26 @@ Data Scientist transitioning into Full Stack Development with a strong foundatio
 
 ### **Founder & AI Engineer**
 **MXAI** | January 2024 – Present | Remote
-- Developed and deployed an AI-powered sales agent achieving 100% catalog's product lookup accuracy and +95% FAQ retrieval rate, with automated cart management and payment processing, using LangChain, FastAPI, LlamaIndex, Stripe, and AWS/Railway infrastructure
-- Built corporate website using modern tech stack (Next.js, TypeScript, Tailwind, shadcn/ui) with responsive design and optimized performance
-- Currently developing a SaaS platform for sales forecasting and revenue optimization using AWS and ML technologies
+- Developed and deployed AI-powered solutions on AWS with event-driven architectures for AI agents with Langchain and RAG.
+- Built corporate websites using the modern tech stack of Next.js, TypeScript, Tailwind and shadcn/ui for mobile first responsive designs.
+- Led customer sales meetings and demo presentations to iterate on requirements and validate value propositions.
 
 ### **Data Scientist**
 **Kuona** | December 2023 – May 2024 | Remote
-- Trained and deployed RNNs to optimize sales units for manufacturers and retailers using PyTorch, Python on AWS, containerized with Docker
-- Modeled competitors' pricing data and implemented LIME for demand elasticity analysis using Pandas, PyTorch, Scikit-Learn, and PostgreSQL
-- Developed internal dashboard with Django and PostgreSQL for operations team to simulate dynamic pricing strategies and revenue management scenarios
+- Developed RNNs for sales forecasting with PyTorch, served through a batch ML system hosted in AWS. Ensured availability of predictions for clients to simulate revenue management scenarios with Django and PostgreSQL.
+- Proposed using QLora for model fine-tuning and custom loss functions to improve business KPIs.
+- Modeled competitors' pricing data and implemented LIME for demand elasticity analysis using Pandas, Pytorch, Scikit-Learn, and PostgreSQL.
 
 ### **Data Scientist Jr.**
 **Entropía AI** | February 2023 – November 2023 | Remote
-- Managed NLP tasks using RAG and prompt engineering with LlamaIndex, Pandas, MongoDB, and LangChain
-- Created ELT pipeline with Python, bs4 and Airflow from scrapped Mexican Political System data into MongoDB
-- Contributed to the agile development of Icaro AI web app hosted in Heroku
+- Led the development of RAG pipelines, enhancing accuracy in QA benchmarks for regulatory datasets with LlamaIndex, MongoDB, and LangChain.
+- Created ELT pipelines with Python, bs4 and Airflow from scrapped Mexican Political System websites into MongoDB.
+- Contributed to the agile development of Icaro AI web app hosted in Heroku.
 
 ### **Developer Intern**
 **Wolfram Research** | February 2021 – February 2022 | Remote
-- Built the 'Wolfram Summer Camp' app integrating Wolfram One's cloud services
+- Built the 'Wolfram Summer Camp' website with Wolfram One's cloud
+- Published "Turing Patterns in Networks" in their Complex Systems Journal
 - Rotated into Wolfram Alpha software development team
 
 ---
