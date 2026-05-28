@@ -1,0 +1,238 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.1 (30/4/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Modified by Daniel Iván Parra Verde (2024)
+% Modifications:
+% - Used template for personal resume
+% - Spanish language version
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass{tex/deedy-resume-openfont}
+
+\begin{document}
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     TITLE NAME
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\namesection{Daniel Iván}{Parra Verde}{ 
+Ingeniero ML \textbullet{} ML en producción \textbullet{} forecasting \textbullet{} RAG/agentes \textbullet{} desde 2023 (+3 años)\\
+\href{https://danivpv.com/}{Portafolio: danivpv.com} | \href{https://github.com/danivpv}{GitHub: danivpv} | \href{https://www.linkedin.com/in/danivpv/}{LinkedIn: danivpv} | \href{https://huggingface.co/danivpv}{HuggingFace: danivpv} \\
+Tel. +52 844 783 6082 | \href{mailto:danivpv@outlook.com}{danivpv@outlook.com} | Saltillo, México
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.32\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Educación} 
+
+\subsection{\href{http://www.fata.unam.mx/}{UNAM-CFATA}}
+\descript{2021 | \href{https://www.enesjuriquilla.unam.mx/?page_id=4107}{Lic. Tecnología}}
+\sectionsep
+
+\subsection{\href{https://www.rug.nl/research/bernoulli/}{Univ. de Groningen (G)}}
+\descript{2019 | \href{https://www.rug.nl/bachelors/artificial-intelligence/}{Intercambio (IA/CS)}}
+\location{Países Bajos; Beca Completa}
+\sectionsep
+
+\subsection{\href{https://www.iimas.unam.mx/}{UNAM-IIMAS}}
+\descript{2022 | \href{https://www.posgrado.unam.mx/matematicas/es/inicio}{Candidato MSc. Mate}}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Habilidades}
+
+\location{Librerías de IA y ML:}
+PyTorch \textbullet{} 
+LangChain \textbullet{} 
+LlamaIndex \textbullet{} 
+Hugging Face \textbullet{} 
+scikit-learn \textbullet{} 
+Pandas \textbullet{} 
+NumPy \textbullet{} 
+Docling \textbullet{} 
+Gemini \textbullet{} 
+OpenAI \textbullet{} 
+Anthropic \textbullet{} 
+OpenCV \\[4pt]
+
+\location{Frameworks:}
+FastAPI \textbullet{} 
+Temporal \textbullet{} 
+Spark \textbullet{} 
+Next.js \textbullet{}
+SQLAlchemy \textbullet{} 
+Django \textbullet{} 
+Kafka \\[4pt]
+
+\location{Servicios en la Nube:}
+AWS EMR \textbullet{} 
+AWS S3 \textbullet{} 
+AWS SageMaker \textbullet{} 
+AWS Lambda \textbullet{} 
+AWS CloudWatch \textbullet{} 
+AWS API Gateway \textbullet{}
+AWS ECS \\[4pt]
+
+\location{Bases de Datos:}
+PostgreSQL \textbullet{} 
+MongoDB \textbullet{} 
+Redis \textbullet{} 
+Qdrant \textbullet{} 
+SQLite \\[4pt]
+
+\location{Lenguajes de Programación:}
+Python \textbullet{} 
+SQL \textbullet{} 
+Bash \textbullet{} 
+TypeScript \textbullet{} 
+Terraform \textbullet{} 
+Julia \textbullet{} 
+Wolfram \\[4pt]
+
+\location{Herramientas de Software:}
+Docker \textbullet{} 
+Git \textbullet{} 
+GitHub Actions \textbullet{} 
+Sentry \textbullet{} 
+Postman \textbullet{} 
+\LaTeX{} \textbullet{} 
+Notion \\[4pt]
+
+\location{Idiomas}
+Inglés ($+$C1) \textbullet{} Alemán ($+$A2) \textbullet{} Español\\[4pt]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Cursos}
+\location{Licenciatura}
+Deep Learning en \custombold{Python}(G)\\
+Bases de Datos Relacionales en \custombold{SQL} (G)\\
+Inteligencia Artificial en \custombold{Python} (G)\\
+Algoritmos y DS en \custombold{C} (G)\\
+Álgebra Lineal\\[4pt]
+
+\location{Maestría}
+Inferencia Estadística\\
+Aprendizaje Estadístico\\
+Teoría de la Información\\
+Bases Estadísticas de la Privacidad\\
+Análisis Numérico con \custombold{Python, Julia}\\
+Análisis Real y Funcional
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.67\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experiencia Laboral}
+\runsubsection{Científico de Datos Senior}\\
+\location{\href{https://www.arkham.tech/es}{Arkham Technologies} | Abril 2025 – Presente | Remoto}
+\vspace{\topsep}
+\begin{tightemize}
+    \item Escalé 1K modelos JUMEX en 100 workers \custombold{EMR Serverless} vía \custombold{Spark}, \custombold{Temporal}, \custombold{Kafka}, \custombold{FastAPI}; integré a plataforma ML con \custombold{SDK}, \custombold{Livy}.
+    \item Automaticé monitoreo de agentes IA con métricas verificables y LLM-as-Judge vía \custombold{FastAPI}, \custombold{PostgreSQL}, \custombold{Temporal} y dashboard de Arkham.
+    \item Lideré CI/CD de PyPI y \custombold{Docker} para staging y prod de plataforma ML vía \custombold{AWS EMR}, \custombold{GitHub Actions}, \custombold{Terraform}. 25\% memoria, 10$\times$ velocidad vs baseline.
+    \item Desarrollé integraciones LLM para agente IA con 100+ usuarios/sem.
+    \item Depuré microservicios de ML e IA (\custombold{FastAPI}, \custombold{Kafka}) vía \custombold{CloudWatch} y \custombold{Sentry}.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Fundador \& Ingeniero Consultor}\\
+\location{\href{https://mxai.dev}{MXAI} | Noviembre 2024 – Abril 2025 | Remoto}
+\begin{tightemize}
+    \item Gestioné discovery y entregué MVPs desplegables de agente IA catálogo/FAQ (+95\% recall@3 en 10\% SKU) con \custombold{Next.js}, \custombold{AWS}, \custombold{LlamaIndex} y \custombold{Redis}.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Científico de Datos}\\
+\location{\href{https://kuona.ai/es/}{Kuona} | Noviembre 2023 – Junio 2024 | Remoto}
+\begin{tightemize}
+    \item Entrené \custombold{RNNs} de \custombold{PyTorch} para forecast de ventas GCP para clientes de retail enterprise (12\% MAPE forward); ML por lotes \custombold{AWS} vía \custombold{Django}.
+    \item Modelé precios de competidores, reduciendo MAPE 40\% y habilitando elasticidad precio-demanda vía \custombold{Pandas} y \custombold{scikit-learn}.
+    \item Diseñé QLoRA y funciones de pérdida (ventas) para KPIs de ingresos y costos.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Científico de Datos Jr.}\\
+\location{\href{https://www.linkedin.com/company/entropia-ai/}{Entropía AI} | Febrero 2023 – Noviembre 2023 | Remoto}
+\begin{tightemize}
+    \item Construí 8 pipelines \custombold{ETL} (\custombold{Python}, \custombold{bs4}, \custombold{Airflow}) ingiriendo 2K docs/100M+ tokens del gobierno mexicano hacia \custombold{MongoDB} para socios legales.
+    \item Desarrollé pipelines \custombold{RAG}; mejorando precisión en QA con LLM-as-Judge de 8\% a 72\% en corpus legales con \custombold{LlamaIndex}, \custombold{MongoDB} y \custombold{LangChain}.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Desarrollador Software (Contrato)}\\
+\location{\href{https://www.wolfram.com/company/}{Wolfram Research} | Febrero 2021 – Febrero 2022 | Remoto}
+\begin{tightemize}
+    \item Sysadmin y desarrollo fullstack de portal \href{https://www.notebookarchive.org/collection-pod?collection=wolfram-summer-school-2021}{``Wolfram Summer Camp''} (+40 alumni).
+    \item Publiqué artículo \href{https://www.complex-systems.com/abstracts/v32_i03_a02/}{``Turing Patterns in Networks''} en \href{https://www.complex-systems.com/}{Complex Systems Journal}.
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Proyectos}
+
+\runsubsection{ArXiv Domain Expert LLM}\\
+\location{\href{https://github.com/danivpv/LLM-ArXiv-Domain-Expert}{GitHub Repository}}
+\begin{tightemize}
+    \item Desarrollé datasets de fine-tuning en \custombold{Hugging Face}, entrené Llama-3.2-3B en \custombold{AWS SageMaker} y desplegué con \custombold{RAG} en la base vectorial \custombold{Qdrant}.
+    \item Automaticé el tracking de experimentos con \custombold{ZenML}, \custombold{CometML} y \custombold{MongoDB}.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Tesis: Identificación de Modelo Neural con EKF}\\
+\location{\href{https://www.linkedin.com/in/esteban-a-hernandez-vargas-04724321/}{Ph.D. Esteban A. Hernandez-Vargas} | \href{https://www.systemsmedicine.de/Research/}{Systems Medicine of Infectious Diseases}}
+\begin{tightemize}
+    \item Derivé regla EKF robusta para RNNs, estable hasta 20\% de señal-ruido en modelado de series temporales de concentraciones de SARS-Cov-2, HIV, etc...
+\end{tightemize}
+\sectionsep
+
+\runsubsection{``Convocatoria Jóvenes Talentos 2018'' CONCyTEC}\\
+\location{\href{mailto:rchavez@comunidad.unam.mx}{PhD. Rafael Chávez Moreno} | \href{https://www.ingenieria.unam.mx/uat/directorio.php}{Unidad de Alta Tecnología Juriquilla, Qro.}}
+\begin{tightemize}
+    \item Obtuve $\$89,000$ MXN; lideré CV/trayectoria y presentaciones de Rover.
+\end{tightemize}
+
+\end{minipage} 
+\end{document}  
