@@ -1,3 +1,4 @@
+# LaTeX build artifacts
 *.aux
 *.log
 *.out
@@ -11,7 +12,18 @@
 *.blg
 *.xdv
 
-private/
-tmp
+# Private directories (never commit)
+applications/
+.build/
+.venv*/
+.env
 
-*cover-letter*
+# Underscore-prefixed files = private (public/private split convention)
+# Use _filename.md alongside filename.md to keep a private version of any doc
+**/_*
+
+# Python tooling artifacts
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/

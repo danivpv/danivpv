@@ -1,31 +1,42 @@
 # Directory structure
 TEX_DIR = tex
-TMP_DIR = tmp
+TMP_DIR = tex/.build
 PDF_DIR = pdfs
+APP_DIR = applications
 
-# Ensure output directories exist
-$(shell mkdir -p $(TMP_DIR) $(PDF_DIR))
+.PHONY: tex-to-pdf md-to-pdf cv letter clean
 
-# Default compiler
-LATEX = xelatex
+# ─── Core tasks ─────────────────────────────────────────────
 
-# Common compiler flags
-FLAGS = -aux-directory=$(TMP_DIR) -output-directory=$(PDF_DIR)
+tex-to-pdf:
+	mkdir -p $(TMP_DIR) $(out)
+	xelatex -aux-directory=$(TMP_DIR) \
+	        -output-directory=$(out) \
+	        $(src)
 
-# Specific targets
-.PHONY: all clean english spanish cover-letter
+md-to-pdf:
+	pandoc $(src) -o $(out) --pdf-engine=xelatex
 
-all: english
+# ─── Use case tasks ─────────────────────────────────────────
 
-english:
-	$(LATEX) $(FLAGS) $(TEX_DIR)/english.tex
+cv:
+ifdef role
+ifdef company
+	$(error Cannot specify both role and company)
+endif
+	$(MAKE) tex-to-pdf src=$(TEX_DIR)/$(role).tex out=$(PDF_DIR)
+else ifdef company
+	$(MAKE) tex-to-pdf src=$(APP_DIR)/$(company)/cv.tex out=$(APP_DIR)/$(company)
+else
+	$(error Must specify either role or company)
+endif
 
-spanish:
-	$(LATEX) $(FLAGS) $(TEX_DIR)/spanish.tex
+letter:
+	$(MAKE) md-to-pdf \
+	        src=$(APP_DIR)/$(company)/$(role)_cover_letter.md \
+	        out=$(APP_DIR)/$(company)/$(role)_cover_letter.pdf
 
-cover-letter:
-	$(LATEX) $(FLAGS) $(TEX_DIR)/cover-letter.tex
+# ─── Clean ──────────────────────────────────────────────────
 
-# Clean temporary files
 clean:
 	rm -rf $(TMP_DIR)/* $(PDF_DIR)/*
