@@ -1,0 +1,41 @@
+name: Compile Resume PDFs
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'tex/**/*.tex'
+      - 'tex/**/*.cls'
+      - 'tex/fonts/**/*'
+      - 'Makefile'
+
+jobs:
+  build-and-commit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Compile LaTeX documents
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: |
+            tex/english.tex
+            tex/spanish.tex
+            tex/mlops.tex
+            tex/production_ai.tex
+            tex/full_stack.tex
+          compiler: xelatex
+          args: -output-directory=pdfs
+          # Note: xu-cheng/latex-action uses TeXLive (not MiKTeX).
+          # TeXLive does not support -aux-directory; aux files go to output-directory.
+
+      - name: Commit compiled PDFs
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: auto-compile PDFs from LaTeX [skip ci]"
+          file_pattern: 'pdfs/*.pdf'
