@@ -4,7 +4,12 @@
 
 `danivpv/danivpv` is a [GitHub profile repository](https://github.com/danivpv/danivpv). The root `README.md` renders directly on Daniel's public GitHub profile page — it is the first thing recruiters, hiring managers, and collaborators see. Treat every edit to `README.md` with the same care as a public product page.
 
-The repo also doubles as a private career workspace. The `applications/` directory (gitignored) holds cover letters, lead tracking, interview notes, and compensation context. **Never leak its contents into `README.md`, public docs, or git commit messages.**
+The repo also doubles as a private career workspace. 
+- **`_AGENTS.md`**: Global private candidate context (metrics, timeline, salary anchors).
+- **`_TODO.md`**: Active application pipeline, priorities, and interview stages.
+- **`applications/`**: Contains generated cover letters, lead tracking, and interview notes.
+
+All of these are `.gitignore`d. **Never leak their contents into `README.md`, public docs, or git commit messages.**
 
 ## PDF Compilation
 
@@ -35,5 +40,7 @@ All task-specific execution context lives in `.agents/skills/`. Load the relevan
 
 ## Global Rules
 
+- **Underscore Prefix (`_`)**: Any file prefixed with `_` (e.g., `_draft.md`, `_SKILL.md`) is private and gitignored. Only unprefixed files are public.
+- **No Hard Line Breaks**: Do not hard-wrap text at arbitrary character limits. Write paragraphs as single continuous lines and let the markdown reader handle visual wrapping.
 - No em dashes (`—`) in any output. Replace with commas, periods, or parentheses.
 - Never invent metrics. Pull all verifiable numbers from `draft/_SKILL.md`.
