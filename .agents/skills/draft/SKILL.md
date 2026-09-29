@@ -68,3 +68,4 @@ Categorization:
 
 - **Form answers**: concise, direct, within character limits
 - **CV bullets**: active verbs, quantifiable impact, zero line-wrap, 1-page XeLaTeX constraint
+- **Email replies**: Keep concise and direct. End with a simple sign-off line (e.g. "Warm regards,"). Never generate candidate signature, title, phone, links, or contact blocks; the candidate uses an automated client signature with verified Credly badges.
