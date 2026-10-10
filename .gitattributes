@@ -1,0 +1,32 @@
+# Set default behavior to normalize line endings to LF on commit
+* text=auto eol=lf
+
+# LaTeX source files, styles, and templates must preserve LF line endings
+*.tex text eol=lf
+*.cls text eol=lf
+*.sty text eol=lf
+*.md text eol=lf
+Makefile text eol=lf
+*.sh text eol=lf
+*.py text eol=lf
+
+# Compiled binary documents and assets (never normalize or treat as text)
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.ico binary
+
+# Ignore/suppress large build artifacts if checked in or compared
+*.aux -diff
+*.log -diff
+*.out -diff
+*.fls -diff
+*.fdb_latexmk -diff
+*.synctex.gz binary
+
+# Treat lock files as binary and generated
+*.lock -diff
+*.lock linguist-generated=true
+*.lock linguist-vendored=true

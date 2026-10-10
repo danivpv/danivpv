@@ -1,0 +1,34 @@
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bcf
+*.run.xml
+*.blg
+*.xdv
+
+# Private directories (never commit)
+applications/
+.build/
+.venv*/
+.env
+
+# Underscore-prefixed files = private (public/private split convention)
+# Use _filename.md alongside filename.md to keep a private version of any doc
+**/_*
+
+# Python tooling artifacts
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# IDEs
+.vscode/
+.idea/
+.kilo/

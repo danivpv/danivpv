@@ -1,0 +1,232 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.1 (30/4/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Modified by Daniel Iván Parra Verde (2024)
+% Modifications:
+% - Used template for personal resume
+% - English language version
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass{tex/deedy-resume-openfont}
+
+\begin{document}
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     TITLE NAME
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\namesection{Daniel Iván}{Parra Verde}{ 
+AI/ML Engineer \textbullet{} \href{https://www.credly.com/users/danivpv}{AWS Certified 2x (AIP-C01, SAA-C03)} \textbullet{} AI Agents \& ML Platforms \textbullet{} +4 years\\
+\href{https://danivpv.com/}{Portfolio: danivpv.com} | \href{https://danivpv.com/blog}{Blog: danivpv.com/blog} | \href{https://github.com/danivpv}{GitHub: danivpv} | \href{https://www.linkedin.com/in/danivpv/}{LinkedIn: danivpv} \\
+Tel. +52 844 783 6082 | \href{mailto:danivpv@outlook.com}{danivpv@outlook.com} | Saltillo, México
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.32\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{\href{http://www.fata.unam.mx/}{UNAM-CFATA}}
+\descript{2020 | \href{https://www.enesjuriquilla.unam.mx/?page_id=4107}{BSc. Technology}}
+\sectionsep
+
+\subsection{\href{https://www.rug.nl/research/bernoulli/}{Groningen University (G)}}
+\descript{2019 | \href{https://www.rug.nl/bachelors/artificial-intelligence/}{Exchange (AI/CS)}}
+\location{Netherlands; Full Scholarship}
+\sectionsep
+
+\subsection{\href{https://www.iimas.unam.mx/}{UNAM-IIMAS}}
+\descript{2022 | \href{https://www.posgrado.unam.mx/matematicas/es/inicio}{MSc. Candidate in Math}}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+
+\location{AI and ML Libraries:}
+PyTorch \textbullet{} 
+LangChain \textbullet{} 
+LlamaIndex \textbullet{} 
+Hugging Face \textbullet{} 
+scikit-learn \textbullet{} 
+Pandas \textbullet{} 
+NumPy \textbullet{} 
+Docling \textbullet{} 
+Gemini \textbullet{} 
+OpenAI \textbullet{} 
+Anthropic \textbullet{} 
+OpenCV \\[4pt]
+
+\location{Frameworks:}
+FastAPI \textbullet{} 
+Temporal \textbullet{} 
+Spark \textbullet{} 
+Next.js \textbullet{}
+SQLAlchemy \textbullet{} 
+Django \textbullet{} 
+Kafka \\[4pt]
+
+\location{Databases:}
+PostgreSQL \textbullet{} 
+MongoDB \textbullet{} 
+Redis \textbullet{} 
+Qdrant \textbullet{} 
+SQLite \\[4pt]
+
+\location{Programming Languages:}
+Python \textbullet{} 
+SQL \textbullet{} 
+Bash \textbullet{} 
+TypeScript \textbullet{} 
+Terraform \textbullet{} 
+Julia \textbullet{} 
+Wolfram \\[4pt]
+
+\location{Software Tools:}
+Docker \textbullet{} 
+Git \textbullet{} 
+GitHub Actions \textbullet{} 
+Sentry \textbullet{} 
+Postman \textbullet{} 
+\LaTeX{}\\[4pt]
+
+\location{Spoken Languages}
+English ($+$C1) \textbullet{} German ($+$A2) \textbullet{} Spanish\\[4pt]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     CERTIFICATIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Certifications}
+\href{https://www.credly.com/users/danivpv}{\custombold{AWS GenAI Developer Professional}}\\
+\href{https://www.credly.com/users/danivpv}{\custombold{AWS Solutions Architect Associate}}\\[4pt]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+\location{Bachelor}
+Deep Learning in \custombold{Python}(G)\\
+Relational Databases in \custombold{SQL} (G)\\
+Artificial Intelligence in \custombold{Python} (G)\\
+Algorithms and Data Structures in \custombold{C} (G)\\
+Linear Algebra\\[4pt]
+
+\location{Master}
+Statistical Inference\\
+Theoretic Machine Learning\\
+Information Theory\\
+Statistical Foundations of Privacy\\
+Numerical Analysis \custombold{Python, Julia}\\
+Real and Functional Analysis
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.67\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Work Experience}
+\runsubsection{Senior Data Scientist}\\
+\location{\href{https://www.arkham.tech/es}{Arkham Technologies} | April 2025 - June 2026 | Remote}
+\vspace{\topsep}
+\begin{tightemize}
+    \item Deployed AI models into production and automated AI agent monitoring (LLM-as-Judge) via \custombold{FastAPI} microservices, \custombold{PostgreSQL} and \custombold{AWS}.
+    \item Shipped cross-provider LLM integrations serving hundreds of users per week.
+    \item Engineered enterprise Machine Learning pipelines; scaled 1K models on \custombold{AWS EMR} via \custombold{Spark} and event-driven architecture (\custombold{Kafka}, \custombold{Temporal}).
+    \item Led \custombold{MLOps} \& \custombold{CI/CD} of \custombold{Docker} images for prod ML platform via \custombold{GitHub Actions}, \custombold{AWS} and \custombold{Terraform}. 10$\times$ faster builds vs baseline.
+    \item Debugged \custombold{FastAPI}/\custombold{Kafka} ML and AI microservices via \custombold{CloudWatch} and \custombold{Sentry}.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{AI Mentor \& Developer}\\
+\location{\href{https://lidr.co}{LIDR} | March 2025 - Present | Remote}
+\begin{tightemize}
+    \item Deliver live-coding on AI-assisted development, \custombold{Cursor}, \custombold{MCP}, \custombold{OpenRouter}, integrations, and developer tooling.
+    % \item Deployed AI agent microservices on \custombold{AWS} with \custombold{LangChain}, \custombold{RAG}; built responsive fullstack apps with \custombold{Next.js} and \custombold{TypeScript}.
+    % \item Led customer discovery meetings and demos; developing SaaS platform for sales forecasting and revenue optimization using \custombold{AWS} and \custombold{ML}.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Data Scientist}\\
+\location{\href{https://kuona.ai/es/}{Kuona} | November 2023 - June 2024 | Remote}
+\begin{tightemize}
+    \item Designed QLoRA and sales-weighted loss functions for critical revenue KPIs.
+    \item Tuned \custombold{PyTorch} \custombold{RNNs} for enterprise sales forecasting, turning predictions into actionable decision intelligence for retail revenue management (12\% MAPE).
+    \item Modeled competitors' pricing data, reducing forecasting MAPE by 40\% and enabling price-demand elasticity analysis for business decisions via \custombold{Pandas}.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Data Scientist Jr.}\\
+\location{\href{https://www.linkedin.com/company/entropia-ai/}{Entropía AI} | February 2023 - November 2023 | Remote}
+\begin{tightemize}
+    \item Deployed \custombold{RAG} AI solutions into production; raised custom QA LLM-as-Judge accuracy from 8\% to 72\% on legal corpora using \custombold{LlamaIndex} and \custombold{MongoDB}.
+    \item Built 8 \custombold{ETL} pipelines (\custombold{Python}, \custombold{bs4}, \custombold{Airflow}) ingesting 2K docs with 100M+ tokens from official Mexican government sites into \custombold{MongoDB} for legal partners.
+    % \item \custombold{Agile} methodology for fullstack development of \href{http://www.icaro.ai/home/}{Icaro AI} web app using \custombold{Dash} and \custombold{Plotly} UI and \custombold{Python} backend hosted in \custombold{Heroku}.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Software Developer}\\
+\location{\href{https://www.wolfram.com/company/}{Wolfram Research} | February 2021 - February 2022 | Remote}
+\begin{tightemize}
+    \item Sysadmin. Fullstack dev of portal for \href{https://www.notebookarchive.org/collection-pod?collection=wolfram-summer-school-2021}{"Wolfram Summer Camp"} (+40 users).
+    \item Published paper \href{https://www.complex-systems.com/abstracts/v32_i03_a02/}{"Turing Patterns in Networks"} in \href{https://www.complex-systems.com/}{Complex Systems Journal}.
+\end{tightemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+
+\runsubsection{Autonomous FinOps Agent}\\
+\location{\href{https://main.d1e2bsg3elvnb4.amplifyapp.com/}{Live Demo} | \href{https://github.com/danivpv/finops-agent}{GitHub Repository}}
+\begin{tightemize}
+    \item Architected AWS native agent with tools via \custombold{Bedrock AgentCore Gateway} and versioned prompts with \custombold{Bedrock Prompt Management}.
+    \item Built full-stack AI SaaS deployed with \custombold{AWS CDK}, \custombold{Next.js} on \custombold{Amplify}, and serverless backend for cloud economics analytics.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Enterprise AutoML Platform}\\
+\location{\href{https://danivpv.com/blog/beyond-the-notebook}{Architecture Deep Dive} | \href{https://github.com/danivpv/ml-platform}{GitHub Repository}}
+\begin{tightemize}
+    \item Architected 4 core subsystems via \custombold{AWS CDK}: feature store (\custombold{Feast}), lineage (\custombold{MLflow}), catalog API, and decoupled compute for inference and training.
+    \item Enforced VPC network isolation with private subnets, \custombold{ALB} routing, and \custombold{NAT} egress for secure \custombold{MLflow} and batch inference.
+\end{tightemize}
+
+\end{minipage} 
+\end{document}
